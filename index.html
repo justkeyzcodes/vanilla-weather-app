@@ -19,7 +19,19 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <form id="search-form">
-            <input type="search" placeholder="Enter a city ..." />
+            <div class="row">
+              <p>Have A Great Day! 😁</p>
+              <br />
+              <div class="col-9">
+            <input type="search" 
+            placeholder="Enter a city ..." 
+            class="form-control" 
+            id="city-input" />
+              </div>
+            <div class="col-3">
+            <input type="submit" value="search" class="btn btn-primary" />
+            </div>
+            </div>
           </form>
           <hr />
           <div class="overview">
@@ -28,8 +40,6 @@
             <li>Last updated: <span id="date"></span></li>
             <li id="description"></li>
           </ul>
-          <br />
-          <p>Have A Great Day! 😁</p>
           </div>
           <hr />
           <div class="row">

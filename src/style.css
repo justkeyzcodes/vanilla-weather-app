@@ -9,6 +9,7 @@ h1 {
   line-height: 28px;
   margin-bottom: 0;
   text-align: center;
+  color: #fff;
 }
 
 ul {
@@ -28,11 +29,11 @@ li {
 
 p {
   margin: 0;
-  padding: 0;
-  font-size: 18px;
+  padding: 15px;
+  font-size: 25px;
   font-weight: lighter;
   line-height: 19px;
-  text-align: center;
+  color: #fff;
 }
 
 li:first-letter {
@@ -77,4 +78,17 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -23px;
+}
+
+.btn {
+  background: #cee5d0;
+  color: white;
+  box-shadow: 4px 4px 10px rgba(59, 58, 58, 0.5);
+  transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: white;
+  color: #79b4b7;
 }
