@@ -1,6 +1,6 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #fff;
+  color: #ffeea6;
 }
 
 h1 {
@@ -28,6 +28,7 @@ li {
 }
 
 p {
+  text-align: center;
   margin: 0;
   padding: 15px;
   font-size: 25px;
